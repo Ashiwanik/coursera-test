@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Dietitian Mausam Ranjan: PG in Dietetics and Nutrition Science (SHUATS, Allahabad), 10 years of experience, online consults for patients worldwide.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2064%2064'%3E%3Ccircle%20cx%3D'32'%20cy%3D'32'%20r%3D'31'%20fill%3D'%23E5EFE2'%2F%3E%3Ccircle%20cx%3D'32'%20cy%3D'32'%20r%3D'27'%20fill%3D'%23FFFFFF'%2F%3E%3Cpath%20d%3D'M32%2010A22%2022%200%200%201%2032%2054Z'%20fill%3D'%231B7A46'%2F%3E%3Cpath%20d%3D'M32%2032L32%2010A22%2022%200%200%200%2010%2032Z'%20fill%3D'%23E9A919'%2F%3E%3Cpath%20d%3D'M32%2032L10%2032A22%2022%200%200%200%2032%2054Z'%20fill%3D'%23B8245C'%2F%3E%3C%2Fsvg%3E">
+<meta property="og:title" content="Dt. Mausam Ranjan Nutrition">
+<meta property="og:url" content="https://dtmausamranjan.com/">
+<meta name="theme-color" content="#F2F7F0">
+<style>body{margin:0}img{max-width:100%}</style>
+<title>Dt. Mausam Ranjan Nutrition</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500;1,9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap">
+<style>
+/* Layout concept: a steel thali on a leaf-pale table. The plate is the one bold object; its three food-group
+   colours (leaf, haldi, beet) carry every chart and tag on the page. Everything else stays quiet. */
+:root{
+  --bg:#F2F7F0; --bg2:#E5EFE2; --card:#FFFFFF; --ink:#16271C; --muted:#52675A; --line:#CFDDCD;
+  --leaf:#1B7A46; --leaf-soft:#D9EEDD; --on-leaf:#FFFFFF;
+  --haldi:#EBAA12; --haldi-ink:#8A5800; --haldi-soft:#FBEFC9;
+  --beet:#B3245A; --beet-soft:#F8DDE7;
+  --clove:#8A6A52; --steel:#C3CECA; --steel2:#E9EEEC;
+  --shadow:0 30px 60px -40px rgba(22,60,36,.45);
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Plus Jakarta Sans","Segoe UI",system-ui,sans-serif;
+  --mono:"DM Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1912; --bg2:#13231A; --card:#182B20; --ink:#EAF4EB; --muted:#9FB6A6; --line:#2A4234;
+  --leaf:#52C686; --leaf-soft:#1D3A2A; --on-leaf:#06180D;
+  --haldi:#F4BD3A; --haldi-ink:#F4BD3A; --haldi-soft:#3A3013;
+  --beet:#F0719F; --beet-soft:#402030;
+  --clove:#BFA28B; --steel:#4A5C55; --steel2:#26372F;
+  --shadow:0 30px 60px -40px rgba(0,0,0,.9); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1912; --bg2:#13231A; --card:#182B20; --ink:#EAF4EB; --muted:#9FB6A6; --line:#2A4234;
+  --leaf:#52C686; --leaf-soft:#1D3A2A; --on-leaf:#06180D;
+  --haldi:#F4BD3A; --haldi-ink:#F4BD3A; --haldi-soft:#3A3013;
+  --beet:#F0719F; --beet-soft:#402030;
+  --clove:#BFA28B; --steel:#4A5C55; --steel2:#26372F;
+  --shadow:0 30px 60px -40px rgba(0,0,0,.9); color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 76px)}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--bg)}
+a{color:var(--leaf)}
+:focus-visible{outline:2px solid var(--beet);outline-offset:3px;border-radius:6px}
+h1,h2,h3{font-family:var(--display);line-height:1.05;text-wrap:balance;margin:0;letter-spacing:-.02em;font-weight:700}
+h2{font-size:clamp(2rem,4vw,3.1rem)}
+h2 em,h1 em{font-style:italic;font-weight:500;color:var(--leaf)}
+h3{font-size:1.25rem}
+p{margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font-family:var(--mono);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);display:inline-flex;align-items:center;gap:10px}
+.eyebrow::before{content:"";width:14px;height:14px;border-radius:0 70% 0 70%;background:var(--leaf);flex:none}
+.lede{font-size:1.1rem;color:var(--muted);max-width:60ch}
+.sec{padding-block:clamp(56px,8vw,104px)}
+.sec.alt{background:var(--bg2)}
+.sec-head{display:grid;gap:14px;margin-bottom:36px;max-width:760px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:clamp(18px,2.6vw,28px);box-shadow:var(--shadow)}
+.flat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}
+.small{font-size:.82rem;color:var(--muted)}
+.ph{font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border:1px dashed var(--muted);padding:4px 9px;border-radius:6px;display:inline-block;justify-self:start}
+
+.btn{display:inline-flex;align-items:center;gap:8px;font:600 .96rem var(--body);padding:13px 22px;border-radius:999px;border:1px solid transparent;cursor:pointer;text-decoration:none;transition:transform .15s,background .2s,border-color .2s;color:var(--ink);background:none}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--leaf);color:var(--on-leaf)}
+.btn-ghost{border-color:var(--line);background:var(--card)}
+.btn-ghost:hover{border-color:var(--leaf)}
+.btn-small{padding:8px 15px;font-size:.86rem}
+
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;gap:18px;min-height:66px;padding-block:8px}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-family:var(--display);font-weight:700;font-size:1.16rem;white-space:nowrap}
+.brand-mark{width:32px;height:32px;border-radius:50%;flex:none;border:3px solid var(--steel);background:conic-gradient(var(--leaf) 0 50%,var(--beet) 0 75%,var(--haldi) 0)}
+.nav ul{display:flex;gap:20px;list-style:none;margin:0 0 0 auto;padding:0}
+.nav ul a{color:var(--muted);text-decoration:none;font-size:.92rem;font-weight:500}
+.nav ul a:hover{color:var(--leaf)}
+@media (max-width:960px){.nav ul{display:none}.nav .btn{margin-left:auto}}
+
+.hero{padding-block:clamp(32px,5vw,64px) clamp(48px,7vw,88px);position:relative;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(24px,5vw,64px);align-items:center}
+@media (max-width:900px){.hero-grid{grid-template-columns:minmax(0,1fr)}}
+.hero h1{font-size:clamp(2.8rem,7vw,5.6rem);letter-spacing:-.035em;margin-top:18px}
+.hero .lede{margin-top:22px}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:34px}
+.stats div{padding:14px 16px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.stats b{display:block;font-family:var(--display);font-size:1.6rem;line-height:1.1}
+.stats div:nth-child(1) b{color:var(--leaf)}.stats div:nth-child(2) b{color:var(--beet)}.stats div:nth-child(3) b{color:var(--haldi-ink)}
+.stats span{font-size:.8rem;color:var(--muted);line-height:1.35;display:block;margin-top:4px}
+@media (max-width:520px){.stats{grid-template-columns:1fr}}
+.thali{position:relative;max-width:460px;width:100%;justify-self:center}
+.thali svg{display:block;width:100%;height:auto;filter:drop-shadow(0 40px 40px rgba(20,50,30,.28))}
+.chip-float{position:absolute;display:flex;align-items:center;gap:10px;padding:10px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);animation:bob 6s ease-in-out infinite}
+.chip-float i{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font:500 .68rem var(--mono);font-style:normal;flex:none}
+.chip-float b{display:block;font-size:.9rem;line-height:1.2}
+.chip-float small{display:block;font-size:.74rem;color:var(--muted)}
+.chip-a{left:-6px;top:4%}.chip-a i{background:var(--leaf-soft);color:var(--leaf)}
+.chip-b{right:-6px;bottom:6%;animation-delay:-3s}.chip-b i{background:var(--beet-soft);color:var(--beet)}
+@keyframes bob{50%{transform:translateY(-7px)}}
+
+/* plate drawing */
+.rim{fill:var(--steel)}.rim2{fill:var(--steel2)}.well{fill:var(--card)}
+.g-veg{fill:var(--leaf)}.g-pro{fill:var(--beet)}.g-grain{fill:var(--haldi)}.g-extra{fill:var(--clove)}
+.seg{stroke:var(--card);stroke-width:3;transition:d .4s}
+.plate-num{font:700 34px var(--display);fill:var(--ink);text-anchor:middle}
+.plate-cap{font:500 10px var(--mono);letter-spacing:.14em;fill:var(--muted);text-anchor:middle}
+.plate-lab{font:600 12px var(--body);fill:#fff;text-anchor:middle;paint-order:stroke;stroke:rgba(0,0,0,.35);stroke-width:2.5px}
+
+.builder{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:24px;align-items:start}
+@media (max-width:900px){.builder{grid-template-columns:minmax(0,1fr)}}
+.foods{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.food{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:14px;border:1px solid var(--line);background:var(--bg);min-width:0}
+.food.has{border-color:var(--leaf);background:var(--leaf-soft)}
+.food .dot{width:10px;height:10px;border-radius:50%;flex:none}
+.food .nm{flex:1;min-width:0;font-weight:600;font-size:.9rem;line-height:1.25}
+.food .nm small{display:block;font-weight:400;color:var(--muted);font-size:.76rem}
+.stepper-btn{width:30px;height:30px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--ink);font:600 1rem var(--body);cursor:pointer;line-height:1;flex:none}
+.stepper-btn:hover{border-color:var(--leaf)}
+.food output{font:500 .9rem var(--mono);min-width:1.4ch;text-align:center;font-variant-numeric:tabular-nums}
+.preset-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;align-items:center}
+.result{display:grid;gap:18px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 84px)}
+@media (max-width:900px){.result{position:static}}
+.result svg{max-width:300px;width:100%;margin:0 auto;display:block}
+.bars{display:grid;gap:12px}
+.bar-row{display:grid;grid-template-columns:86px minmax(0,1fr) 44px;gap:10px;align-items:center;font-size:.86rem}
+.bar-row b{font-weight:600}
+.bar{height:12px;border-radius:99px;background:var(--bg2);position:relative}
+.bar i{position:absolute;inset:0 auto 0 0;border-radius:99px;transition:width .4s}
+.bar .mark{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--ink);border-radius:2px}
+.bar-row span{font:500 .8rem var(--mono);text-align:right;font-variant-numeric:tabular-nums}
+.totals{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.totals div{padding:10px 12px;border-radius:12px;background:var(--bg);border:1px solid var(--line)}
+.totals b{display:block;font:700 1.3rem var(--display);font-variant-numeric:tabular-nums}
+.totals span{font:500 .66rem var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.verdict{padding:14px 16px;border-radius:14px;background:var(--haldi-soft);border:1px solid var(--haldi);font-size:.95rem}
+.verdict.good{background:var(--leaf-soft);border-color:var(--leaf)}
+.verdict b{display:block;font-family:var(--display);font-size:1.1rem;margin-bottom:2px}
+
+.timeline{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+.timeline li{display:grid;gap:8px;align-content:start;border-top:4px solid var(--leaf)}
+.timeline li:nth-child(3n+2){border-top-color:var(--beet)}.timeline li:nth-child(3n){border-top-color:var(--haldi)}
+.timeline .t{font:500 .76rem var(--mono);color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.timeline h3{font-size:1.1rem}
+.timeline p{font-size:.9rem;color:var(--muted)}
+
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.tabs button{font:600 .9rem var(--body);background:var(--card);color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:10px 16px;cursor:pointer}
+.tabs button:hover{border-color:var(--leaf);color:var(--ink)}
+.tabs button[aria-selected="true"]{background:var(--leaf);border-color:var(--leaf);color:var(--on-leaf)}
+.panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(20px,4vw,44px)}
+@media (max-width:820px){.panel{grid-template-columns:minmax(0,1fr)}}
+.panel h3{font-size:clamp(1.7rem,3vw,2.3rem);margin-top:8px}
+.panel>div{display:grid;gap:16px;align-content:start;min-width:0}
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0}
+.facts div{background:var(--bg);border:1px solid var(--line);padding:12px 14px;border-radius:12px}
+.facts dt{font:500 .66rem var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.facts dd{margin:4px 0 0;font-weight:600;font-size:.92rem}
+.pill-list{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+.pill-list li{font-size:.85rem;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--bg)}
+
+.planner{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:24px;align-items:start}
+@media (max-width:860px){.planner{grid-template-columns:minmax(0,1fr)}}
+label{display:block;font-weight:600;font-size:.9rem;margin-bottom:6px}
+select,input[type="text"],input[type="tel"],input[type="time"],input[type="search"],input[type="number"]{width:100%;font:inherit;font-size:.95rem;padding:11px 13px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+select:focus,input:focus{border-color:var(--leaf);outline:none;box-shadow:0 0 0 3px var(--leaf-soft)}
+.field{display:grid;gap:4px;margin-bottom:16px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:480px){.form-row{grid-template-columns:1fr}}
+.prog{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+.prog-bar{flex:1;height:8px;border-radius:9px;background:var(--bg2);overflow:hidden}
+.prog-bar i{display:block;height:100%;width:0;background:var(--leaf);transition:width .3s}
+.prog b{font:500 .82rem var(--mono);white-space:nowrap}
+.steps{list-style:none;margin:0;padding:0;display:grid}
+.steps li{display:grid;grid-template-columns:86px minmax(0,1fr) auto;gap:12px;padding:13px 0;align-items:start;border-bottom:1px solid var(--line)}
+.steps time{font:500 .78rem var(--mono);color:var(--leaf);font-variant-numeric:tabular-nums;padding-top:2px}
+.steps p{font-size:.95rem;font-weight:600}
+.steps p span{display:block;color:var(--muted);font-size:.86rem;font-weight:400;margin-top:2px}
+.steps input{width:22px;height:22px;accent-color:var(--leaf);margin-top:2px}
+.steps li.done p{opacity:.45;text-decoration:line-through}
+.tip{margin-top:16px;padding:12px 14px;border-radius:12px;background:var(--beet-soft);font-size:.9rem}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;align-items:center}
+.toast{font-size:.85rem;color:var(--leaf);font-weight:600}
+
+.decoder{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:start}
+@media (max-width:860px){.decoder{grid-template-columns:minmax(0,1fr)}}
+.decoder h3{font:500 .78rem var(--mono);letter-spacing:.14em;text-transform:uppercase;margin-bottom:12px;color:var(--muted)}
+.terms{display:grid;max-height:440px;overflow:auto;margin:12px 0 0;padding-right:6px}
+.term{padding:12px 0;border-bottom:1px solid var(--line)}
+.term dt{font-weight:700;font-size:.95rem}
+.term dd{margin:4px 0 0;color:var(--muted);font-size:.9rem}
+.tag{font:500 .62rem var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:99px;margin-left:8px;vertical-align:2px;white-space:nowrap}
+.tag.ok{background:var(--leaf-soft);color:var(--leaf)}
+.tag.check{background:var(--haldi-soft);color:var(--haldi-ink)}
+.table-scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 .66rem var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+td:first-child{font-weight:600}
+td{font-variant-numeric:tabular-nums}
+.bmi{margin-top:20px;padding-top:18px;border-top:1px dashed var(--line)}
+.bmi-out{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.bmi-out b{font:700 2rem var(--display);font-variant-numeric:tabular-nums}
+
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.path{display:grid;gap:10px;align-content:start}
+.path .who{font:500 .7rem var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--beet)}
+.path p{color:var(--muted);font-size:.93rem}
+.path a{font-weight:600;text-decoration:none}
+.price .n{font:700 1.9rem var(--display)}
+.price ul{margin:0;padding:0;list-style:none;font-size:.88rem;color:var(--muted);display:grid;gap:4px}
+.price ul li::before{content:"✓ ";color:var(--leaf)}
+
+.world{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,5vw,56px);align-items:center}
+@media (max-width:860px){.world{grid-template-columns:minmax(0,1fr)}}
+.best{background:var(--leaf-soft);color:var(--leaf);font-weight:700;padding:2px 8px;border-radius:6px;white-space:nowrap}
+.off{color:var(--muted);white-space:nowrap}
+
+.about{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,5vw,64px);align-items:start}
+@media (max-width:860px){.about{grid-template-columns:minmax(0,1fr)}}
+.creds{display:grid;gap:10px;margin:0}
+.creds div{padding:14px 16px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.creds dt{font:500 .66rem var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.creds dd{margin:3px 0 0;font-weight:600}
+blockquote{margin:24px 0 0;font-family:var(--display);font-style:italic;font-weight:500;font-size:clamp(1.4rem,2.4vw,1.9rem);line-height:1.25;max-width:30ch;padding-left:18px;border-left:4px solid var(--haldi)}
+.about p+p{margin-top:14px}
+
+.story{display:grid;gap:14px;align-content:start}
+.story p{font-size:1rem}
+.story footer{font:500 .76rem var(--mono);color:var(--muted)}
+.faq{display:grid;gap:10px;max-width:820px}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 20px}
+summary{cursor:pointer;font-weight:600;font-size:1.02rem;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font:500 1.3rem var(--mono);line-height:1;color:var(--leaf);transition:transform .25s;flex:none}
+details[open] summary::after{transform:rotate(45deg)}
+details p{margin-top:10px;color:var(--muted);max-width:68ch}
+
+.book{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,5vw,56px);align-items:start}
+@media (max-width:860px){.book{grid-template-columns:minmax(0,1fr)}}
+.stepper{display:flex;gap:6px;margin-bottom:20px}
+.stepper i{flex:1;height:5px;border-radius:9px;background:var(--bg2)}
+.stepper i.on{background:var(--leaf)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips label{margin:0;font-weight:500;font-size:.88rem;border:1px solid var(--line);border-radius:999px;padding:8px 14px;cursor:pointer;background:var(--bg);position:relative}
+.chips input{position:absolute;opacity:0;pointer-events:none}
+.chips label:has(input:checked){border-color:var(--leaf);background:var(--leaf-soft);color:var(--leaf);font-weight:700}
+.chips label:has(input:focus-visible){outline:2px solid var(--beet);outline-offset:2px}
+.contact-lines{display:grid;gap:10px;margin-top:22px}
+.contact-lines div{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:12px 16px;border-radius:14px;background:var(--card);border:1px solid var(--line);flex-wrap:wrap}
+.contact-lines span{font:500 .9rem var(--mono);user-select:all}
+.err{color:var(--beet);font-size:.88rem;margin-bottom:10px}
+.bdone{display:grid;gap:10px}
+[hidden]{display:none!important}
+.done-big{font:700 1.8rem var(--display);color:var(--leaf)}
+
+footer.site{border-top:1px solid var(--line);padding-block:36px;font-size:.84rem;color:var(--muted)}
+footer.site .wrap{display:flex;flex-wrap:wrap;gap:12px 40px;justify-content:space-between}
+footer.site p{max-width:64ch}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap nav">
+    <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"></span>Dt. Mausam Ranjan</a>
+    <ul>
+      <li><a href="#plate">Build a plate</a></li>
+      <li><a href="#care">What I treat</a></li>
+      <li><a href="#day">Plan a day</a></li>
+      <li><a href="#decode">Labels &amp; labs</a></li>
+      <li><a href="#global">Worldwide</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <a class="btn btn-primary btn-small" href="#book">Book a consult</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Dietitian · PG Dietetics &amp; Nutrition Science</p>
+      <h1>Keep your roti. <em>Change your numbers.</em></h1>
+      <p class="lede">I'm Mausam Ranjan, a dietitian with a postgraduate degree in dietetics and nutrition science and 10 years in practice. I build eating plans around the food already in your kitchen, for patients in India and around the world.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#book">Book a consult →</a>
+        <a class="btn btn-ghost" href="#plate">Check my plate first</a>
+      </div>
+      <div class="stats">
+        <div><b>10 years</b><span>of clinical diet practice</span></div>
+        <div><b>Global</b><span>patients, consulted by video across time zones</span></div>
+        <div><b>PG</b><span>Sam Higginbottom University, Allahabad</span></div>
+      </div>
+    </div>
+    <div class="thali">
+      <svg id="heroPlate" viewBox="0 0 320 320" role="img" aria-label="A balanced thali: half vegetables and fruit, a quarter protein, a quarter grains"></svg>
+      <div class="chip-float chip-a"><i>PG</i><div><b>SHUATS</b><small>Allahabad (Prayagraj)</small></div></div>
+      <div class="chip-float chip-b"><i>10y</i><div><b>In practice</b><small>India and abroad</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="plate" class="sec alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Plate check</p>
+      <h2>Put your last meal on the thali. <em>See what it's missing.</em></h2>
+      <p class="lede">Most plans fail because they replace your food. This one starts with it. Add what you ate, in the portions you ate it, and compare the plate with the guide: half vegetables and fruit, a quarter protein, a quarter grains.</p>
+    </div>
+    <div class="builder">
+      <div class="card">
+        <div class="preset-row">
+          <span class="small">Start from:</span>
+          <button class="btn btn-ghost btn-small" type="button" data-preset="typical">A typical dinner</button>
+          <button class="btn btn-ghost btn-small" type="button" data-preset="balanced">The same dinner, balanced</button>
+          <button class="btn btn-ghost btn-small" type="button" data-preset="clear">Empty plate</button>
+        </div>
+        <div class="foods" id="foods"></div>
+        <p class="small" style="margin-top:14px">Approximate values for typical home portions. 1 katori is about 150 ml. Your plan uses your own recipes and measures.</p>
+      </div>
+      <div class="card result">
+        <svg id="plateSvg" viewBox="0 0 320 320" role="img" aria-label="Your plate by food group"></svg>
+        <div class="bars" id="bars"></div>
+        <div class="totals">
+          <div><b id="tKcal">0</b><span>kcal</span></div>
+          <div><b id="tPro">0 g</b><span>protein</span></div>
+          <div><b id="tFib">0 g</b><span>fibre</span></div>
+        </div>
+        <div class="verdict" id="verdict" aria-live="polite"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="how" class="sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">How we work together</p>
+      <h2>Twelve weeks, <em>one change at a time.</em></h2>
+      <p class="lede">A diet chart alone rarely changes anything. The weekly conversation does. This is the usual shape of a programme.</p>
+    </div>
+    <ol class="timeline">
+      <li class="flat"><span class="t">Day 0</span><h3>First conversation</h3><p>A short call about your goal, your history and what you've already tried.</p></li>
+      <li class="flat"><span class="t">Days 1–3</span><h3>Food diary and reports</h3><p>You log three ordinary days and share your recent blood reports and medicines.</p></li>
+      <li class="flat"><span class="t">Week 1</span><h3>Full assessment</h3><p>Routine, work hours, likes, dislikes, budget, who cooks, and what's in the kitchen.</p></li>
+      <li class="flat"><span class="t">Week 1</span><h3>Your written plan</h3><p>Meal by meal, in your timings, with swaps for eating out, travel and festivals.</p></li>
+      <li class="flat"><span class="t">Weeks 2–11</span><h3>Weekly check-ins</h3><p>We review what worked, fix what didn't and adjust portions as your body responds.</p></li>
+      <li class="flat"><span class="t">Week 12</span><h3>Review and handover</h3><p>Repeat labs, compare the numbers, and a maintenance plan you can run alone.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="care" class="sec alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">What I treat</p>
+      <h2>Six kinds of care. <em>One kitchen: yours.</em></h2>
+      <p class="lede">Each programme has its own targets and its own things to measure. Pick the one closest to your situation.</p>
+    </div>
+    <div class="tabs" role="tablist" id="careTabs"></div>
+    <div class="card panel" role="tabpanel" id="carePanel"></div>
+  </div>
+</section>
+
+<section id="day" class="sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Day planner</p>
+      <h2>Tell me when you wake. <em>I'll lay out the day.</em></h2>
+      <p class="lede">Meal timing matters almost as much as the meal. Enter your routine and get a sample day by the clock that you can tick off and copy.</p>
+    </div>
+    <div class="planner">
+      <form class="card" id="dayForm">
+        <div class="form-row">
+          <div class="field"><label for="wake">I wake at</label><input type="time" id="wake" value="06:30"></div>
+          <div class="field"><label for="bed">I sleep at</label><input type="time" id="bed" value="22:30"></div>
+        </div>
+        <div class="field"><label for="pref">I eat</label>
+          <select id="pref">
+            <option value="veg">Vegetarian</option>
+            <option value="egg">Vegetarian + eggs</option>
+            <option value="nonveg">Non-vegetarian</option>
+            <option value="vegan">Vegan</option>
+            <option value="jain">Jain</option>
+          </select></div>
+        <div class="field"><label for="goal">My main goal</label>
+          <select id="goal">
+            <option value="weight">Lose weight</option>
+            <option value="sugar">Steadier blood sugar</option>
+            <option value="pcos">PCOS or thyroid support</option>
+            <option value="muscle">Build strength</option>
+            <option value="gut">Calmer digestion</option>
+          </select></div>
+        <p class="small">A sample framework, not a prescription. Your own plan depends on your reports, medicines and routine.</p>
+      </form>
+      <div class="card">
+        <div class="prog"><div class="prog-bar"><i id="progBar"></i></div><b id="progTxt">0 of 0 done</b></div>
+        <ul class="steps" id="daySteps"></ul>
+        <div class="tip" id="dayTip"></div>
+        <div class="actions"><button class="btn btn-primary btn-small" id="copyDay" type="button">Copy my day</button><span class="toast" id="copyToast" aria-live="polite"></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="decode" class="sec alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Labels and labs</p>
+      <h2>The packet says one thing. <em>The ingredient list says another.</em></h2>
+      <p class="lede">Look up a claim before it goes in the trolley, and keep the lab numbers that matter in one place.</p>
+    </div>
+    <div class="decoder">
+      <div class="card">
+        <h3>Food label decoder</h3>
+        <label for="termSearch">Search a word on the pack</label>
+        <input type="search" id="termSearch" placeholder="Try multigrain, sugar free, maltodextrin">
+        <dl class="terms" id="terms"></dl>
+      </div>
+      <div class="card">
+        <h3>Numbers worth knowing</h3>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>Marker</th><th>Healthy</th><th>Early warning</th><th>Needs care</th></tr></thead>
+            <tbody>
+              <tr><td>HbA1c</td><td>below 5.7%</td><td>5.7–6.4%</td><td>6.5% or more</td></tr>
+              <tr><td>Fasting glucose</td><td>below 100 mg/dL</td><td>100–125</td><td>126 or more</td></tr>
+              <tr><td>BMI (Asian Indian)</td><td>18.5–22.9</td><td>23–24.9</td><td>25 or more</td></tr>
+              <tr><td>Waist</td><td colspan="2">under 90 cm (men), under 80 cm (women)</td><td>at or above</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="small" style="margin-top:10px">Glucose ranges: American Diabetes Association. BMI and waist: consensus cut-offs for Asian Indians (Misra et al., 2009), which are lower than the international ones. A diagnosis is always your doctor's call.</p>
+        <div class="bmi">
+          <div class="form-row">
+            <div class="field"><label for="hCm">Height (cm)</label><input type="number" id="hCm" value="165" min="100" max="230" inputmode="decimal"></div>
+            <div class="field"><label for="wKg">Weight (kg)</label><input type="number" id="wKg" value="68" min="25" max="250" inputmode="decimal"></div>
+          </div>
+          <div class="bmi-out"><b id="bmiNum">–</b><span id="bmiTxt"></span></div>
+          <p class="small" style="margin-top:6px">Example figures pre-filled. BMI can't tell muscle from fat, so read it together with your waist.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="who" class="sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Where people start</p>
+      <h2>Four reasons people write to me. <em>Which is yours?</em></h2>
+    </div>
+    <div class="grid3">
+      <article class="flat path"><span class="who">Tired of diets</span><h3>"I've tried everything and the weight came back."</h3><p>We skip the crash phase and work on the few habits that decide your weight in the long run.</p><a href="#care" data-care="0">Weight management →</a></article>
+      <article class="flat path"><span class="who">New report</span><h3>"My sugar or cholesterol just came back high."</h3><p>Bring the report. We set a food plan beside your doctor's treatment and recheck in three months.</p><a href="#care" data-care="1">Blood sugar care →</a></article>
+      <article class="flat path"><span class="who">Living abroad</span><h3>"I can't find half these ingredients here."</h3><p>Your plan is written for the shops near you, your work hours and your time zone.</p><a href="#global">How it works overseas →</a></article>
+      <article class="flat path"><span class="who">Family cook</span><h3>"I can't cook three different meals."</h3><p>One family meal, adjusted at the plate: different portions, same pot.</p><a href="#care" data-care="5">Mothers and children →</a></article>
+    </div>
+  </div>
+</section>
+
+<section id="global" class="sec alt">
+  <div class="wrap world">
+    <div>
+      <div class="sec-head" style="margin-bottom:0">
+        <p class="eyebrow">Worldwide by video</p>
+        <h2>Your kitchen may be in Toronto. <em>The plan still fits.</em></h2>
+        <p class="lede">Patients consult from the Gulf, Europe, North America and Australia. Plans use what your local supermarket stocks, and calls are set in your time, not mine.</p>
+        <ul class="pill-list">
+          <li>Video and phone consults</li><li>Plans in local ingredients</li><li>Reports shared online</li><li>Follow-ups by message</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <p class="eyebrow" style="margin-bottom:12px">Two example slots in your clock</p>
+      <div class="table-scroll">
+        <table id="tzTable">
+          <thead><tr><th>Where you are</th><th>7:30 am India</th><th>7:30 pm India</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="small" style="margin-top:10px">Highlighted times fall in your waking hours. Example slots only; actual times are confirmed when you book.</p>
+    </div>
+  </div>
+</section>
+
+<section id="fees" class="sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Fees</p>
+      <h2>Know the cost <em>before the first call.</em></h2>
+      <span class="ph">Fees to be set by the practice</span>
+    </div>
+    <div class="grid3">
+      <article class="flat price path"><span class="who">One session</span><h3>Single consult</h3><span class="n">₹ —</span><ul><li>Assessment and report review</li><li>Written diet plan</li><li>One follow-up message</li></ul></article>
+      <article class="flat price path"><span class="who">4 weeks</span><h3>Reset</h3><span class="n">₹ —</span><ul><li>Everything in a single consult</li><li>Weekly check-ins</li><li>Plan adjusted each week</li></ul></article>
+      <article class="flat price path"><span class="who">12 weeks</span><h3>Full programme</h3><span class="n">₹ —</span><ul><li>Weekly check-ins</li><li>Lab review at start and end</li><li>Maintenance plan at handover</li></ul></article>
+      <article class="flat price path"><span class="who">Household</span><h3>Family plan</h3><span class="n">₹ —</span><ul><li>One kitchen, several goals</li><li>Shared meal framework</li><li>Portions set per person</li></ul></article>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="sec alt">
+  <div class="wrap about">
+    <div>
+      <p class="eyebrow">About</p>
+      <h2 style="margin:14px 0 18px">Mausam Ranjan, <em>dietitian.</em></h2>
+      <p class="lede">I studied dietetics and nutrition science at postgraduate level at Sam Higginbottom University in Allahabad, and I have spent the 10 years since in practice.</p>
+      <p class="lede">In that time I've worked with patients across India and overseas. The lesson that keeps repeating: people follow plans made of food they already love. So I start from your plate and change as little as it takes.</p>
+      <blockquote>A good diet is one you're still following next Diwali.</blockquote>
+    </div>
+    <dl class="creds">
+      <div><dt>Qualification</dt><dd>Postgraduate, Dietetics &amp; Nutrition Science</dd></div>
+      <div><dt>University</dt><dd>Sam Higginbottom University of Agriculture, Technology and Sciences (SHUATS), Allahabad</dd></div>
+      <div><dt>Experience</dt><dd>10 years of practice</dd></div>
+      <div><dt>Patients</dt><dd>India and worldwide, by video consult</dd></div>
+      <div><dt>Approach</dt><dd>Home food first. No crash diets, no banned foods without a reason.</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Patient stories</p>
+      <h2>What changes <em>after twelve weeks.</em></h2>
+      <span class="ph">Sample copy · replace with real, consented reviews</span>
+    </div>
+    <div class="grid3">
+      <article class="flat story"><p>"I expected a list of things to stop eating. I got my own lunch back, in different proportions. My HbA1c came down at the next test."</p><footer>Sample · blood sugar programme</footer></article>
+      <article class="flat story"><p>"We live in Dubai and both work late. The plan was written around our supermarket and our hours. That's why we kept to it."</p><footer>Sample · overseas family plan</footer></article>
+      <article class="flat story"><p>"No one had explained PCOS to me in terms of breakfast before. Small changes, and my cycle is regular again."</p><footer>Sample · PCOS programme</footer></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt">
+  <div class="wrap">
+    <div class="sec-head"><p class="eyebrow">Questions</p><h2>Before you book</h2></div>
+    <div class="faq">
+      <details><summary>Will I have to give up rice, roti or sweets?</summary><p>No. We adjust how much, how often and what goes beside them. Foods only come off the plate for a medical reason, and I'll tell you the reason.</p></details>
+      <details><summary>I live outside India. Can you still help?</summary><p>Yes. Consults are by video, your reports are shared online, and the plan uses ingredients you can buy where you live.</p></details>
+      <details><summary>Should I stop my medicines once I start the diet?</summary><p>No. Never change a medicine without your doctor. Diet works alongside treatment, and if your numbers improve, your doctor decides what to reduce.</p></details>
+      <details><summary>How quickly will I see results?</summary><p>Energy and digestion often improve in the first weeks. For weight, about half a kilo to one kilo a week is a safe pace. I don't promise a number, because bodies differ.</p></details>
+      <details><summary>What should I keep ready for the first consult?</summary><p>Recent blood reports, a list of your medicines and supplements, and a simple diary of everything you ate for three ordinary days.</p></details>
+      <details><summary>I'm vegetarian, vegan or Jain. Is that a problem?</summary><p>Not at all. Plans are built inside your food rules, with attention to protein, iron and B12 where they tend to run low.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="book" class="sec">
+  <div class="wrap book">
+    <div>
+      <div class="sec-head" style="margin-bottom:12px">
+        <p class="eyebrow">Book a consult</p>
+        <h2>Three short steps. <em>About a minute.</em></h2>
+        <p class="lede">Tell me what you need and when you're free. You'll get a confirmation with what to keep ready.</p>
+      </div>
+      <div class="contact-lines">
+        <div><strong>WhatsApp</strong><span id="waTxt">+91 XXXXX XXXXX</span><button class="btn btn-ghost btn-small" type="button" data-copy="waTxt">Copy</button></div>
+        <div><strong>Email</strong><span id="mailTxt">mausambhr@gmail.com</span><button class="btn btn-ghost btn-small" type="button" data-copy="mailTxt">Copy</button></div>
+        <div><strong>Instagram</strong><span id="igTxt">@dietitianmausam</span><a class="btn btn-ghost btn-small" href="https://www.instagram.com/dietitianmausam" target="_blank" rel="noopener">Open</a></div>
+        <p class="small">The WhatsApp number is a placeholder.</p>
+      </div>
+    </div>
+    <form class="card" id="bookForm" novalidate>
+      <div class="stepper" aria-hidden="true"><i class="on" id="st1"></i><i id="st2"></i><i id="st3"></i></div>
+      <div id="bstep1">
+        <p class="eyebrow" style="margin-bottom:14px">Step 1 of 3 · What brings you here?</p>
+        <div class="chips">
+          <label><input type="radio" name="need" value="Weight management" checked><span>Weight</span></label>
+          <label><input type="radio" name="need" value="Diabetes or prediabetes"><span>Blood sugar</span></label>
+          <label><input type="radio" name="need" value="PCOS or thyroid"><span>PCOS / thyroid</span></label>
+          <label><input type="radio" name="need" value="Heart, BP or cholesterol"><span>Heart / BP</span></label>
+          <label><input type="radio" name="need" value="Gut health"><span>Digestion</span></label>
+          <label><input type="radio" name="need" value="Pregnancy or child nutrition"><span>Mother / child</span></label>
+          <label><input type="radio" name="need" value="Something else"><span>Something else</span></label>
+        </div>
+        <div class="field" style="margin-top:18px"><label for="mode">How would you like to meet?</label>
+          <select id="mode"><option>Video call</option><option>Phone call</option></select></div>
+        <button class="btn btn-primary" type="button" id="toStep2">Continue</button>
+      </div>
+      <div id="bstep2" hidden>
+        <p class="eyebrow" style="margin-bottom:14px">Step 2 of 3 · When suits you?</p>
+        <div class="chips">
+          <label><input type="radio" name="when" value="Morning" checked><span>Morning</span></label>
+          <label><input type="radio" name="when" value="Afternoon"><span>Afternoon</span></label>
+          <label><input type="radio" name="when" value="Evening"><span>Evening</span></label>
+          <label><input type="radio" name="when" value="Weekend"><span>Weekend</span></label>
+        </div>
+        <div class="field" style="margin-top:18px"><label for="tz">Your time zone</label><input type="text" id="tz" autocomplete="off"><span class="small">Detected from your device. Change it if you're travelling.</span></div>
+        <div style="display:flex;gap:10px"><button class="btn btn-ghost" type="button" id="back1">Back</button><button class="btn btn-primary" type="button" id="toStep3">Continue</button></div>
+      </div>
+      <div id="bstep3" hidden>
+        <p class="eyebrow" style="margin-bottom:14px">Step 3 of 3 · How do I reach you?</p>
+        <div class="form-row">
+          <div class="field"><label for="bName">Name</label><input type="text" id="bName" autocomplete="name"></div>
+          <div class="field"><label for="bPhone">WhatsApp number</label><input type="tel" id="bPhone" autocomplete="tel"></div>
+        </div>
+        <p class="err" id="bErr" hidden>Add your name and a WhatsApp number so the confirmation can reach you.</p>
+        <div style="display:flex;gap:10px"><button class="btn btn-ghost" type="button" id="back2">Back</button><button class="btn btn-primary" type="submit">Request my consult</button></div>
+      </div>
+      <div id="bdone" class="bdone" hidden>
+        <span class="done-big">Request ready.</span>
+        <p id="doneTxt"></p>
+        <p class="small">Preview site: nothing was sent. On the live site this step goes to the practice's booking system.</p>
+        <button class="btn btn-ghost btn-small" type="button" id="restart" style="justify-self:start">Start again</button>
+      </div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p><strong>Dt. Mausam Ranjan</strong> · Dietitian · PG Dietetics &amp; Nutrition Science, SHUATS Allahabad</p>
+    <p><a href="https://www.instagram.com/dietitianmausam" target="_blank" rel="noopener">Instagram @dietitianmausam</a> · mausambhr@gmail.com</p>
+    <p>Information on this site is general education and does not replace advice from your own doctor or dietitian.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+/* ---------- plate ---------- */
+const GROUPS=[{k:'veg',n:'Veg & fruit',t:50},{k:'pro',n:'Protein',t:25},{k:'grain',n:'Grains',t:25},{k:'extra',n:'Extras',t:null}];
+const FOODS=[
+ {id:'roti',n:'Roti',p:'1 medium',g:'grain',u:1,kcal:100,pr:3,fi:2.5},
+ {id:'rice',n:'Steamed rice',p:'1 katori',g:'grain',u:1,kcal:195,pr:4,fi:.6},
+ {id:'paratha',n:'Aloo paratha',p:'1 piece',g:'grain',u:1.5,kcal:250,pr:5,fi:4},
+ {id:'dal',n:'Dal',p:'1 katori',g:'pro',u:1,kcal:150,pr:9,fi:5},
+ {id:'rajma',n:'Rajma or chole',p:'1 katori',g:'pro',u:1,kcal:210,pr:11,fi:9},
+ {id:'paneer',n:'Paneer',p:'60 g',g:'pro',u:1,kcal:160,pr:11,fi:0},
+ {id:'dahi',n:'Dahi',p:'1 katori',g:'pro',u:1,kcal:90,pr:5,fi:0},
+ {id:'egg',n:'Boiled eggs',p:'2 eggs',g:'pro',u:1,kcal:140,pr:12,fi:0},
+ {id:'chicken',n:'Grilled chicken or fish',p:'100 g',g:'pro',u:1,kcal:165,pr:28,fi:0},
+ {id:'sabzi',n:'Mixed sabzi',p:'1 katori',g:'veg',u:1,kcal:90,pr:3,fi:4},
+ {id:'saag',n:'Palak or saag',p:'1 katori',g:'veg',u:1,kcal:80,pr:4,fi:4},
+ {id:'salad',n:'Kachumber salad',p:'1 bowl',g:'veg',u:1,kcal:35,pr:1.5,fi:2.5},
+ {id:'fruit',n:'Fruit',p:'1 medium',g:'veg',u:1,kcal:80,pr:1,fi:3},
+ {id:'ghee',n:'Ghee',p:'1 tsp',g:'extra',u:.25,kcal:45,pr:0,fi:0},
+ {id:'sweet',n:'Gulab jamun',p:'1 piece',g:'extra',u:.75,kcal:150,pr:2,fi:0},
+ {id:'chai',n:'Chai with sugar',p:'1 cup',g:'extra',u:.5,kcal:60,pr:1.5,fi:0}
+];
+const PRESETS={typical:{roti:3,rice:1,dal:1,sabzi:1,ghee:1},balanced:{roti:2,dal:1,dahi:1,sabzi:1,saag:1,salad:1,ghee:1},clear:{}};
+let counts={...PRESETS.typical};
+
+function shares(c){
+  const u={veg:0,pro:0,grain:0,extra:0};let kcal=0,pr=0,fi=0;
+  FOODS.forEach(f=>{const n=c[f.id]||0;u[f.g]+=n*f.u;kcal+=n*f.kcal;pr+=n*f.pr;fi+=n*f.fi});
+  const T=u.veg+u.pro+u.grain+u.extra;
+  const s={};GROUPS.forEach(g=>s[g.k]=T?u[g.k]/T:0);
+  return {s,T,kcal,pr,fi};
+}
+function drawPlate(svg,sh,centre){
+  const cx=160,cy=160,r=120;let a=0,h='<circle class="rim" cx="160" cy="160" r="156"/><circle class="rim2" cx="160" cy="160" r="146"/><circle class="well" cx="160" cy="160" r="128"/>';
+  const pt=(ang,rad)=>[cx+rad*Math.sin(ang),cy-rad*Math.cos(ang)];
+  GROUPS.forEach(g=>{
+    const f=sh.s[g.k];if(f<=0)return;
+    const a1=a+f*2*Math.PI;
+    if(f>.999){h+=`<circle class="g-${g.k}" cx="${cx}" cy="${cy}" r="${r}"/>`}
+    else{const [x0,y0]=pt(a,r),[x1,y1]=pt(a1,r);
+      h+=`<path class="seg g-${g.k}" d="M${cx},${cy}L${x0.toFixed(1)},${y0.toFixed(1)}A${r},${r} 0 ${f>.5?1:0} 1 ${x1.toFixed(1)},${y1.toFixed(1)}Z"/>`}
+    if(f>=.12){const [lx,ly]=pt((a+a1)/2,f>.999?86:88);h+=`<text class="plate-lab" x="${lx.toFixed(1)}" y="${(ly+4).toFixed(1)}">${g.n}</text>`}
+    a=a1;
+  });
+  h+='<circle class="well" cx="160" cy="160" r="50"/><circle class="rim2" cx="160" cy="160" r="50" fill-opacity=".5"/>';
+  h+=`<text class="plate-num" x="160" y="166">${centre[0]}</text><text class="plate-cap" x="160" y="184">${centre[1]}</text>`;
+  svg.innerHTML=h;
+}
+function verdict(sh){
+  const s=sh.s;
+  if(!sh.T)return [false,'An empty plate','Add what you ate at your last meal, in the portions you ate it.'];
+  if(s.grain>.4)return [false,'Grain-heavy','Swap one roti or half the rice for a katori of dal or sabzi. The plate stays just as full and the balance evens out.'];
+  if(s.pro<.18)return [false,'Light on protein','Add dal, dahi, paneer, eggs or fish until protein covers about a quarter of the plate. It keeps you full for longer.'];
+  if(s.veg<.35)return [false,'Vegetables under half','One more katori of sabzi or a bowl of salad brings fibre up and slows the rise in blood sugar after the meal.'];
+  if(s.extra>.2)return [false,'Extras are crowding the plate','Sweets, sugar and added fat are fine in small amounts. Here they take more room than a food group.'];
+  return [true,'A balanced plate','About half vegetables, a quarter protein, a quarter grains. This is the shape most of my plans aim for.'];
+}
+function renderFoods(){
+  $('#foods').innerHTML=FOODS.map(f=>{const n=counts[f.id]||0;
+    return `<div class="food${n?' has':''}"><span class="dot g-${f.g}" style="background:var(--${{veg:'leaf',pro:'beet',grain:'haldi',extra:'clove'}[f.g]})"></span><span class="nm">${f.n}<small>${f.p}</small></span>
+    <button class="stepper-btn" type="button" data-f="${f.id}" data-d="-1" aria-label="Remove one ${f.n}">−</button><output>${n}</output><button class="stepper-btn" type="button" data-f="${f.id}" data-d="1" aria-label="Add one ${f.n}">+</button></div>`}).join('');
+}
+function renderPlate(){
+  const sh=shares(counts);
+  drawPlate($('#plateSvg'),sh,[Math.round(sh.kcal),'KCAL']);
+  const col={veg:'leaf',pro:'beet',grain:'haldi',extra:'clove'};
+  $('#bars').innerHTML=GROUPS.map(g=>{const p=Math.round(sh.s[g.k]*100);
+    return `<div class="bar-row"><b>${g.n}</b><div class="bar" title="${g.t?'Guide: '+g.t+'%':'Keep small'}"><i style="width:${p}%;background:var(--${col[g.k]})"></i>${g.t?`<span class="mark" style="left:${g.t}%"></span>`:''}</div><span>${p}%</span></div>`}).join('')
+    +'<p class="small">The dark tick on each bar is the guide share.</p>';
+  $('#tKcal').textContent=Math.round(sh.kcal);
+  $('#tPro').textContent=Math.round(sh.pr)+' g';
+  $('#tFib').textContent=Math.round(sh.fi)+' g';
+  const [ok,t,d]=verdict(sh);const v=$('#verdict');v.className='verdict'+(ok?' good':'');v.innerHTML=`<b>${t}</b>${d}`;
+}
+$('#foods').addEventListener('click',e=>{const b=e.target.closest('[data-f]');if(!b)return;
+  const id=b.dataset.f;counts[id]=Math.max(0,Math.min(9,(counts[id]||0)+ +b.dataset.d));
+  const focusSel=`[data-f="${id}"][data-d="${b.dataset.d}"]`;renderFoods();renderPlate();const nb=$(focusSel);if(nb)nb.focus();});
+$$('[data-preset]').forEach(b=>b.addEventListener('click',()=>{counts={...PRESETS[b.dataset.preset]};renderFoods();renderPlate()}));
+drawPlate($('#heroPlate'),{s:{veg:.5,pro:.25,grain:.25,extra:0}},['½ ¼ ¼','THE GUIDE']);
+renderFoods();renderPlate();
+
+/* ---------- programmes ---------- */
+const CARE=[
+ {tab:'Weight',k:'Lose, gain or hold',t:'Weight management',d:"No crash plans and no banned foods. We find the two or three habits that move your weight most and fix those first, so the result survives festivals, travel and wedding season.",
+  f:[['Typical length','12 weeks'],['Check-ins','Weekly'],['We track','Weight, waist, energy, sleep'],['Built around','Your home kitchen']],u:['Portions without weighing','Eating out','Plateaus','Emotional eating','Weight after pregnancy']},
+ {tab:'Blood sugar',k:'Diabetes and prediabetes',t:'Steadier blood sugar',d:"Meal order, portions and timing that flatten the rise after eating. The plan is built around your medicines and shared with your doctor whenever you want.",
+  f:[['Typical length','12 weeks, then reviews'],['Check-ins','Weekly'],['We track','Fasting and post-meal glucose, HbA1c'],['Works with','Your doctor’s treatment']],u:['Rice and roti portions','Fruit choices','Fasting days','Festival sweets','Avoiding lows']},
+ {tab:'PCOS & thyroid',k:'Hormones',t:'PCOS and thyroid support',d:"Regular meals, enough protein and strength exercise help with insulin resistance, which sits behind many PCOS symptoms. For thyroid, we plan meals around your tablet timing.",
+  f:[['Typical length','12 weeks or more'],['Check-ins','Weekly'],['We track','Cycle, waist, energy, labs'],['Works with','Your gynaecologist or endocrinologist']],u:['Protein at breakfast','Cravings','Iron and B12','Tablet and meal gap','Steady weight loss']},
+ {tab:'Heart & BP',k:'Blood pressure, cholesterol, fatty liver',t:'Heart-friendly eating',d:"Less salt in places you won't miss it, better fats and more fibre. The changes show up on a lipid profile, and the food is still cooked the way your family cooks.",
+  f:[['Typical length','12 weeks'],['Check-ins','Weekly'],['We track','BP, lipid profile, waist'],['Works with','Your physician or cardiologist']],u:['Cooking oils','Hidden salt in pickle, papad, namkeen','Fibre','Triglycerides','Fatty liver']},
+ {tab:'Digestion',k:'Acidity, bloating, IBS, constipation',t:'A calmer gut',d:"We match symptoms to meals with a short food diary, remove likely triggers one at a time and bring foods back as soon as your gut allows. Nothing stays off the plate without a reason.",
+  f:[['Typical length','6 to 12 weeks'],['Check-ins','Weekly'],['We track','Symptom and food diary'],['Method','Remove, observe, reintroduce']],u:['Acidity','Bloating','Constipation','IBS triggers','Fermented foods']},
+ {tab:'Mothers & children',k:'Pregnancy, new mothers, growing children',t:'Family nutrition',d:"Trimester-by-trimester plans, care for gestational diabetes, eating well while breastfeeding, and patient help with fussy eaters and teenagers.",
+  f:[['Typical length','By trimester or term'],['Check-ins','Every 1 to 2 weeks'],['We track','Weight gain, haemoglobin, growth'],['Works with','Your obstetrician or paediatrician']],u:['Morning sickness','Gestational diabetes','Iron and calcium','Breastfeeding','Fussy eaters','Tiffin ideas']}
+];
+let careIdx=0;
+function renderCare(){
+  $('#careTabs').innerHTML=CARE.map((c,i)=>`<button type="button" role="tab" aria-selected="${i===careIdx}" data-i="${i}">${c.tab}</button>`).join('');
+  const c=CARE[careIdx];
+  $('#carePanel').innerHTML=`<div><div><p class="eyebrow">${c.k}</p><h3>${c.t}</h3></div><p style="color:var(--muted)">${c.d}</p>
+    <div><a class="btn btn-primary btn-small" href="#book">Book for this</a></div></div>
+    <div><dl class="facts">${c.f.map(x=>`<div><dt>${x[0]}</dt><dd>${x[1]}</dd></div>`).join('')}</dl>
+    <div><p class="eyebrow" style="margin-bottom:10px">We usually work on</p><ul class="pill-list">${c.u.map(x=>`<li>${x}</li>`).join('')}</ul></div></div>`;
+}
+$('#careTabs').addEventListener('click',e=>{const b=e.target.closest('[data-i]');if(!b)return;careIdx=+b.dataset.i;renderCare();$(`#careTabs [data-i="${careIdx}"]`).focus()});
+$$('[data-care]').forEach(a=>a.addEventListener('click',()=>{careIdx=+a.dataset.care;renderCare()}));
+renderCare();
+
+/* ---------- day planner ---------- */
+const MEALS={
+ veg:{early:'Soaked almonds and walnuts',bf:'Vegetable poha or besan chilla, with a katori of dahi',mid:'One fruit and a glass of chaas',lunch:'2 rotis, dal, seasonal sabzi, salad, dahi',snack:'Roasted chana or makhana, chai without sugar',dinner:'1 to 2 rotis, paneer or dal, sabzi, salad',night:'A cup of warm haldi milk, if you like it'},
+ egg:{early:'Soaked almonds and walnuts',bf:'2-egg omelette with vegetables and one toast or roti',mid:'One fruit and a glass of chaas',lunch:'2 rotis, dal, seasonal sabzi, salad, dahi',snack:'Boiled egg or roasted chana, chai without sugar',dinner:'1 to 2 rotis, egg bhurji or dal, sabzi, salad',night:'A cup of warm haldi milk, if you like it'},
+ nonveg:{early:'Soaked almonds and walnuts',bf:'2-egg omelette with vegetables and one toast or roti',mid:'One fruit and a glass of chaas',lunch:'2 rotis or 1 katori rice, chicken or fish curry, sabzi, salad',snack:'Roasted chana or makhana, chai without sugar',dinner:'Grilled fish or chicken, sautéed vegetables, 1 roti',night:'A cup of warm haldi milk, if you like it'},
+ vegan:{early:'Soaked almonds and walnuts',bf:'Moong dal chilla with mint chutney, or tofu bhurji and one roti',mid:'One fruit and coconut water',lunch:'2 rotis, rajma or chole, seasonal sabzi, salad',snack:'Roasted chana or peanuts, black or lemon tea',dinner:'1 to 2 rotis, dal or tofu, sabzi, salad',night:'Warm soy milk with haldi, if you like it'},
+ jain:{early:'Soaked almonds and walnuts',bf:'Moong dal chilla or thepla, with a katori of dahi',mid:'One fruit and a glass of chaas',lunch:'2 rotis, dal, lauki or tindora sabzi, cucumber and tomato salad',snack:'Makhana or roasted chana, chai without sugar',dinner:'Khichdi with kadhi and sabzi, finished before sunset when you observe it',night:'A cup of warm haldi milk, if you like it'}
+};
+const TIPS={
+ weight:'For weight loss: start lunch and dinner with the vegetables, then protein, then roti or rice. You fill up before the grains arrive.',
+ sugar:'For blood sugar: never eat a carbohydrate alone. Pair roti, rice or fruit with protein or dahi. If you take insulin or sugar-lowering tablets, check with your doctor before changing meal timing.',
+ pcos:'For PCOS or thyroid: keep meal times regular and get protein into breakfast. If you take a thyroid tablet, take it on an empty stomach and wait before eating, as your doctor advised.',
+ muscle:'For strength: include a protein food at every meal and add a snack of dahi, paneer, eggs or sattu within an hour after exercise.',
+ gut:'For digestion: eat slowly, keep a two to three hour gap between dinner and sleep, and note any meal that brings symptoms so we can spot the pattern.'
+};
+const toMin=v=>{const [h,m]=(v||'06:30').split(':').map(Number);return h*60+m};
+const fmt=m=>{m=((Math.round(m)%1440)+1440)%1440;const h=Math.floor(m/60),mm=m%60;return ((h+11)%12+1)+':'+String(mm).padStart(2,'0')+(h<12?' am':' pm')};
+let dayPlan=[],dayDone=new Set();
+function renderDay(){
+  const w=toMin($('#wake').value);let b=toMin($('#bed').value);if(b<=w)b+=1440;
+  const M=MEALS[$('#pref').value];
+  const dinner=Math.min(w+13*60,b-180);
+  const span=dinner-w;
+  dayPlan=[
+   [w+15,'Water, then a handful of nuts',M.early],
+   [w+Math.min(90,span*.12+30),'Breakfast',M.bf],
+   [w+span*.36,'Mid-morning',M.mid],
+   [w+span*.52,'Lunch',M.lunch],
+   [w+span*.77,'Evening snack',M.snack],
+   [dinner,'Dinner',M.dinner+'. At least 3 hours before sleep.'],
+   [b-60,'Wind down',M.night+'. Screens away.']
+  ];
+  $('#daySteps').innerHTML=dayPlan.map((s,i)=>`<li class="${dayDone.has(i)?'done':''}"><time>${fmt(s[0])}</time><p>${s[1]}<span>${s[2]}</span></p><input type="checkbox" id="dstep${i}" data-i="${i}" ${dayDone.has(i)?'checked':''} aria-label="Done: ${s[1]}"></li>`).join('');
+  $('#dayTip').textContent=TIPS[$('#goal').value];
+  prog();
+}
+function prog(){const n=dayPlan.length,d=dayDone.size;$('#progTxt').textContent=d+' of '+n+' done';$('#progBar').style.width=(n?d/n*100:0)+'%'}
+$('#daySteps').addEventListener('change',e=>{const i=+e.target.dataset.i;e.target.checked?dayDone.add(i):dayDone.delete(i);e.target.closest('li').classList.toggle('done',e.target.checked);prog()});
+['wake','bed','pref','goal'].forEach(id=>$('#'+id).addEventListener('input',()=>{dayDone.clear();renderDay()}));
+$('#dayForm').addEventListener('submit',e=>e.preventDefault());
+function copyText(text,done){
+  const fallback=()=>{const ta=document.createElement('textarea');ta.value=text;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();let ok=false;try{ok=document.execCommand('copy')}catch(e){}ta.remove();done(ok)};
+  try{navigator.clipboard.writeText(text).then(()=>done(true),fallback)}catch(e){fallback()}
+}
+$('#copyDay').addEventListener('click',()=>{
+  const txt='My sample day (Dt. Mausam Ranjan)\n'+dayPlan.map(s=>fmt(s[0])+'  '+s[1]+': '+s[2]).join('\n')+'\n\n'+TIPS[$('#goal').value];
+  copyText(txt,ok=>{$('#copyToast').textContent=ok?'Copied':'Copy not available here. Select the list and copy it.';setTimeout(()=>$('#copyToast').textContent='',3500)});
+});
+renderDay();
+
+/* ---------- label decoder ---------- */
+const TERMS=[
+ ['Multigrain','check','Often mostly refined wheat flour (maida) with a little of other grains. Read the first ingredient: it makes up most of the product.'],
+ ['No added sugar','check','No sugar was added, but the food can still be high in natural sugars from fruit juice concentrate, dates or milk. Check total sugars per 100 g.'],
+ ['Sugar free','check','Very low in sugar, usually sweetened another way. It can still be high in refined flour and fat, so the calories may not be lower.'],
+ ['Maltodextrin','check','A fast-digesting carbohydrate made from starch. It raises blood sugar much like sugar, even though it is not listed as sugar.'],
+ ['Ingredients order','ok','Ingredients are listed from most to least by weight. If sugar, maida or oil is in the first three, that is what you are mostly eating.'],
+ ['Serving size','check','Nutrition is often shown for a serving much smaller than the pack. Compare per 100 g, or multiply by what you will really eat.'],
+ ['Trans fat 0 g','check','Small amounts can be rounded down to zero. If the ingredients mention hydrogenated or partially hydrogenated fat, or vanaspati, trans fat is present.'],
+ ['Edible vegetable oil','check','A general term that does not tell you which oil. In packaged snacks it is very often palm oil.'],
+ ['Brown bread','check','The colour may come from caramel, not whole grain. Look for whole wheat flour (atta) as the first ingredient.'],
+ ['Low fat','check','Fat is reduced, and sugar or starch is often added to keep the taste. Compare the sugar line with the regular version.'],
+ ['High protein','check','Check the grams per serving. Many "protein" snacks give 5 to 6 g, which is less than a katori of dal.'],
+ ['Jaggery, honey, date syrup','check','These are still added sugars. They bring flavour and trace minerals, and they raise blood sugar like sugar does.'],
+ ['Baked, not fried','check','Baked snacks can still be made of refined flour with plenty of salt and oil. Check fat and sodium per 100 g.'],
+ ['Fortified (+F logo)','ok','A staple such as atta, rice, milk, oil or salt with vitamins or minerals added. A useful choice for everyday staples.'],
+ ['Whole wheat atta','ok','The whole grain is milled, so the fibre stays. A good everyday base for rotis.'],
+ ['Cold-pressed oil','ok','Oil extracted without high heat or solvents. Fine to use, in the same measured amount as any other oil.'],
+ ['Sodium','check','Salt is listed as sodium. Multiply sodium by 2.5 to get salt. Adults should stay under about 5 g of salt a day (World Health Organization).']
+];
+function renderTerms(){
+  const q=$('#termSearch').value.trim().toLowerCase();
+  const list=TERMS.filter(t=>!q||(t[0]+' '+t[2]).toLowerCase().includes(q));
+  $('#terms').innerHTML=list.length?list.map(t=>`<div class="term"><dt>${t[0]}<span class="tag ${t[1]}">${t[1]==='ok'?'Usually fine':'Read closer'}</span></dt><dd>${t[2]}</dd></div>`).join('')
+    :`<p class="small" style="padding:16px 0">No match for "${esc(q)}". Bring the pack to your consult and we'll read it together.</p>`;
+}
+$('#termSearch').addEventListener('input',renderTerms);renderTerms();
+
+function renderBmi(){
+  const h=parseFloat($('#hCm').value)/100,w=parseFloat($('#wKg').value);
+  if(!(h>=1&&h<=2.3&&w>=25&&w<=250)){$('#bmiNum').textContent='–';$('#bmiTxt').textContent='Enter height in cm and weight in kg.';return}
+  const b=w/(h*h);$('#bmiNum').textContent=b.toFixed(1);
+  const lo=(18.5*h*h).toFixed(0),hi=(22.9*h*h).toFixed(0);
+  const cat=b<18.5?'Underweight':b<23?'Healthy range':b<25?'Overweight (Asian Indian cut-off)':'Obese (Asian Indian cut-off)';
+  $('#bmiTxt').textContent=cat+'. Healthy weight for this height: '+lo+' to '+hi+' kg.';
+}
+['hCm','wKg'].forEach(id=>$('#'+id).addEventListener('input',renderBmi));renderBmi();
+
+/* ---------- time zones ---------- */
+let myTz='';try{myTz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}
+(function(){
+  const now=new Date(),y=now.getUTCFullYear(),m=now.getUTCMonth(),d=now.getUTCDate();
+  const slots=[new Date(Date.UTC(y,m,d,2,0)),new Date(Date.UTC(y,m,d,14,0))];
+  const rows=[['Your device'+(myTz?' ('+myTz.split('/').pop().replace(/_/g,' ')+')':''),myTz||undefined],['Dubai','Asia/Dubai'],['London','Europe/London'],['New York','America/New_York'],['Toronto','America/Toronto'],['Singapore','Asia/Singapore'],['Sydney','Australia/Sydney']];
+  const cell=(dt,tz)=>{try{
+    const t=new Intl.DateTimeFormat('en-GB',{hour:'numeric',minute:'2-digit',hour12:true,timeZone:tz}).format(dt);
+    const hr=+new Intl.DateTimeFormat('en-GB',{hour:'numeric',hourCycle:'h23',timeZone:tz}).format(dt);
+    return `<span class="${hr>=7&&hr<22?'best':'off'}">${t}</span>`}catch(e){return '–'}};
+  $('#tzTable tbody').innerHTML=rows.map(r=>`<tr><td>${esc(r[0])}</td><td>${cell(slots[0],r[1])}</td><td>${cell(slots[1],r[1])}</td></tr>`).join('');
+})();
+
+/* ---------- booking ---------- */
+$('#tz').value=myTz.replace(/_/g,' ');
+const show=n=>{['bstep1','bstep2','bstep3','bdone'].forEach((id,i)=>$('#'+id).hidden=(i!==n));['st1','st2','st3'].forEach((id,i)=>$('#'+id).classList.toggle('on',i<=Math.min(n,2)))};
+$('#toStep2').onclick=()=>show(1);$('#back1').onclick=()=>show(0);$('#toStep3').onclick=()=>show(2);$('#back2').onclick=()=>show(1);
+$('#bookForm').addEventListener('submit',e=>{e.preventDefault();
+  if($('#bstep3').hidden)return;
+  const name=$('#bName').value.trim(),ph=$('#bPhone').value.trim();
+  if(!name||ph.replace(/\D/g,'').length<7){$('#bErr').hidden=false;return}
+  $('#bErr').hidden=true;
+  const need=document.querySelector('input[name=need]:checked').value,when=document.querySelector('input[name=when]:checked').value;
+  $('#doneTxt').textContent=`${name}, your request: ${need}, by ${$('#mode').value.toLowerCase()}, ${when.toLowerCase()} slots${$('#tz').value?' ('+$('#tz').value+')':''}. Confirmation would go to ${ph}.`;
+  show(3)});
+$('#restart').onclick=()=>show(0);
+$$('[data-copy]').forEach(b=>b.addEventListener('click',()=>{const t=$('#'+b.dataset.copy).textContent;copyText(t,ok=>{const o=b.textContent;b.textContent=ok?'Copied':'Select to copy';setTimeout(()=>b.textContent=o,1800)})}));
+})();
+</script>
+
+</body>
+</html>
